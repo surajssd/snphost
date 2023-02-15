@@ -1,0 +1,33 @@
+snphost(1)
+==========
+
+NAME
+----
+snphost - Command line tool for managing the AMD SEV-SNP environment.
+
+
+SYNOPSIS
+--------
+*snphost* [GLOBAL_OPTIONS] [_COMMAND_] [_COMMAND_ARGS_] +
+*snphost* [_-h, --help_] +
+
+
+DESCRIPTION
+-----------
+snphost is a CLI utility for managing and interacting with the AMD SEV-SNP
+firmware device of a host system.
+
+
+GLOBAL OPTIONS
+--------------
+*-q, --quiet*:: Don't print any output to the console.
+
+
+COMMANDS
+--------
+
+
+REPORTING BUGS
+--------------
+
+Please report all bugs to <https://github.com/virtee/snphost/issues>

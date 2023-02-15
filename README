@@ -1,0 +1,7 @@
+snphost
+=======
+
+An administrative CLI utility for managing the SEV-SNP host environment.
+
+Please consult the manpage (docs/snphost.1.adoc) for an overview of snphost's
+commands.
