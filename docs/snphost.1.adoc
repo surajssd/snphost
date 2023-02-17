@@ -34,6 +34,19 @@ COMMANDS
   options:
         -h, --help      Show a help message.
 
+*snphost certs get*::
+        usage: snphost certs get --ark $ARK_PATH --ask $ASK_PATH --vcek $VCEK_PATH
+
+        Retrieves the SEV-SNP certificate chain and writes each certificate to
+        the files specified by the path in their respective arguments.
+
+        NOTE: If a given certificate was not found in the chain. This command
+        will not throw an error. All that will result is a no-op concerning the
+        file of the undiscovered certificate.
+
+  options:
+        -h, --help      Show a help message.
+
 REPORTING BUGS
 --------------
 
