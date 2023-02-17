@@ -10,7 +10,7 @@ SYNOPSIS
 --------
 *snphost* [GLOBAL_OPTIONS] [_COMMAND_] [_COMMAND_ARGS_] +
 *snphost* [_-h, --help_] +
-
+*snphost* *generation* *command* *--help*
 
 DESCRIPTION
 -----------
@@ -25,7 +25,14 @@ GLOBAL OPTIONS
 
 COMMANDS
 --------
+*snphost certs set*::
+        usage: snphost certs set --ark $ARK_PATH --ask $ASK_PATH --vcek $VCEK_PATH
 
+        Sets the SEV-SNP certificate chain to the ARK, ASK, and VCEK
+        certificates specified by the file paths in their respective arguments.
+
+  options:
+        -h, --help      Show a help message.
 
 REPORTING BUGS
 --------------
